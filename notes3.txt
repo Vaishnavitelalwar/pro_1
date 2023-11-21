@@ -1,0 +1,82 @@
+scripting lang- javascript
+programming lang- java,.net
+
+->0's , 1's (machine code or low level code)
+->for conversion english lang(source code) to machine code
+  we can use 1) interpretor(javascript)
+	     2) compiler
+
+
+->javascript is case-sensitive.
+var Var
+
+1) keywords
+2) variables
+    str name="Ginni"
+3) datatypes
+4) operators
+5) array
+6) control flow structure-used to specify
+		->if-else(conditional statement)
+		->looping(iterative statements)
+7)function
+
+
+->we categorize lang in 2 parts:
+1)strongly typed
+	int x=8;
+2)loosely typed(weakly typed)
+python->	x="hello"
+		type(x)
+
+javascript->	a=10 or 
+		var a=10
+		typeof(a)
+
+2+3
++ (operator)
+2,3 (operands)
+
+10/2*3+2
+5*3+2
+15+2
+17
+((10/2)*(3+2))
+
+x="tanvir"
+y="vishal"
+z="vaishnavi"
+
+int,float,string,boolean
+newArrary(10);
+
+
+->array slice
+
++ 	0       1    2        3           4
+var x=["hello",1.2,"world","javascript","lang"];
+-	-5	-4    -3  	-2	  -1	
+
+array.slice(start,end)
+ start=0,1,2 etc
+ end=n-1
+
+array.slice(1,4); =  (1,4-1) = (1,3) =(1,2,3)
+	 1.2, world , javascript
+
+array.slice(2,5); = (2,4) = (2,3,4) = "world","javascript","lang"
+
+array.slice(-5,-2); = (-5,-3) = (-5,-4,-3)= "hello",1.2,"world",
+
+array.slice(-5,3); = (-5,2) = ("hello",1.2,"world")
+
+
+
+
+
+
+
+
+
+
+
